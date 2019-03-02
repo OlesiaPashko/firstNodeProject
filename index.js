@@ -1,1 +1,1 @@
-echo ("In index.js");
+console.log("In index.js");
