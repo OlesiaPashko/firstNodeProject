@@ -1,2 +1,2 @@
 console.log("node deploy");
-//console.dir(process.env);
+console.dir(process.env);
