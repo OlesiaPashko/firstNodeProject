@@ -1,0 +1,23 @@
+{
+  "name": "firstnodeproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"start" : "node index"
+	"lint" : "eslint ."
+  "test": "echo \"No tests specified\""
+	"deploy" : "node deploy"
+	"build" : " echo \"builded\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PashkoOlesya/first-node-package.git"
+  },
+  "author": "Olesya Pashko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PashkoOlesya/first-node-package/issues"
+  },
+  "homepage": "https://github.com/PashkoOlesya/first-node-package#readme"
+}
