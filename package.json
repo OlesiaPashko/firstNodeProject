@@ -1,14 +1,14 @@
 {
-  "name": "firstnodeproject",
+  "name": "start",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-	"start" : "node index"
-	"lint" : "eslint ."
-  "test": "echo \"No tests specified\""
-	"deploy" : "node deploy"
-	"build" : " echo \"builded\""
+    "start": "node index",
+    "lint": "eslint .",
+    "test": "echo \"No tests specified\"",
+    "deploy": "node deploy",
+    "build": " echo \"builded\""
   },
   "repository": {
     "type": "git",
