@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index",
-    "lint": "eslint .",
+    "lint": "eslint index.js",
     "test": "echo \"No tests specified\"",
-    "deploy": "node deploy",
+    "deploy": "now deploy",
     "build": " echo \"builded\""
   },
   "repository": {
@@ -19,9 +19,13 @@
   "bugs": {
     "url": "https://github.com/PashkoOlesya/first-node-package/issues"
   },
-  "homepage": "https://github.com/PashkoOlesya/first-node-package#readme",
+  " omepage": "https://github.com/PashkoOlesya/first-node-package#readme",
   "devDependencies": {
     "eslint": "^5.15.0",
     "eslint-plugin-react": "^7.12.4"
+  },
+  "dependencies": {
+    "http-proxy": "^1.17.0",
+    "isomorphic-unfetch": "3.0.0"
   }
 }
