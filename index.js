@@ -20,7 +20,7 @@ proxyServer.on('upgrade', function (req, socket, head) {
  
 proxyServer.listen(8015);*/
 
-var http = require('http'),
+/*var http = require('http'),
     httpProxy = require('http-proxy');
  
 //
@@ -48,4 +48,4 @@ http.createServer(function (req, res) {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
   res.write('request successfully proxied to: ' + req.url + '\n' + JSON.stringify(req.headers, true, 2));
   res.end();
-}).listen(9008);
+}).listen(9008);*/
