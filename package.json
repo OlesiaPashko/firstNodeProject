@@ -22,6 +22,7 @@
   "homepage": "https://github.com/PashkoOlesya/first-node-package#readme",
   "devDependencies": {
     "eslint": "^5.15.0",
-    "eslint-plugin-react": "^7.12.4"
+    "eslint-plugin-react": "^7.12.4",
+    "now": "^14.1.0"
   }
 }
